@@ -1,0 +1,41 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+#buttons {
+    
+    margin: auto;
+    }
+
+#results {
+    margin: auto;
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    
+   
+    
+}
+
+#results {
+   font-weight: 900;
+   font-size: 30px;
+   
+}
+
+#imagePlace {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.invisible {
+    visibility: hidden;
+}
