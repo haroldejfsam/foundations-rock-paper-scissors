@@ -78,8 +78,8 @@ function playRound(playerSelection, computerSelection) {
     case playerSelection === "rock" && computerSelection === "scissors":
       ++roundsWon;
       
-      imgLeft.setAttribute('src', '/images/Rock-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Scissors-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Rock-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Scissors-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. You win! Rock beats Scissors. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -88,8 +88,8 @@ function playRound(playerSelection, computerSelection) {
     case playerSelection === "rock" && computerSelection === "paper":
       ++roundsLost;
       
-      imgLeft.setAttribute('src', '/images/Rock-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Paper-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Rock-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Paper-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. You Lose! Paper beats Rock. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -97,8 +97,8 @@ function playRound(playerSelection, computerSelection) {
       break;
     case playerSelection === "rock" && computerSelection === "rock":
       
-      imgLeft.setAttribute('src', '/images/Rock-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Rock-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Rock-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Rock-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. It's a tie! You both chose Rock. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -107,8 +107,8 @@ function playRound(playerSelection, computerSelection) {
     case playerSelection === "paper" && computerSelection === "scissors":
       ++roundsLost;
       
-      imgLeft.setAttribute('src', '/images/Paper-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Scissors-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Paper-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Scissors-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. You Lose! Scissors beats Paper. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -116,8 +116,8 @@ function playRound(playerSelection, computerSelection) {
       break;
     case playerSelection === "paper" && computerSelection === "paper":
       
-      imgLeft.setAttribute('src', '/images/Paper-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Paper-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Paper-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Paper-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. It's a tie! You both chose Paper. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -126,8 +126,8 @@ function playRound(playerSelection, computerSelection) {
     case playerSelection === "paper" && computerSelection === "rock":
       ++roundsWon;
       
-      imgLeft.setAttribute('src', '/images/Paper-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Rock-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Paper-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Rock-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. You win! Paper beats Rock. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -135,8 +135,8 @@ function playRound(playerSelection, computerSelection) {
       break;
     case playerSelection === "scissors" && computerSelection === "scissors":
         
-      imgLeft.setAttribute('src', '/images/Scissors-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Scissors-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Scissors-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Scissors-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. It's a tie! You both chose Scissors. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -145,8 +145,8 @@ function playRound(playerSelection, computerSelection) {
     case playerSelection === "scissors" && computerSelection === "paper":
       ++roundsWon;
       
-      imgLeft.setAttribute('src', '/images/Scissors-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Paper-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Scissors-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Paper-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. You win! Scissors beats Paper. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
@@ -155,8 +155,8 @@ function playRound(playerSelection, computerSelection) {
     case playerSelection === "scissors" && computerSelection === "rock":
       ++roundsLost;
       
-      imgLeft.setAttribute('src', '/images/Scissors-LEFT.jpg');
-      imgRight.setAttribute('src', '/images/Rock-RIGHT.jpg');
+      imgLeft.setAttribute('src', './images/Scissors-LEFT.jpg');
+      imgRight.setAttribute('src', './images/Rock-RIGHT.jpg');
       imgLeft.classList.toggle('invisible');
       imgRight.classList.toggle('invisible');
       divResults.textContent = `End of round: ${roundsPlayed}. You Lose! Rock beats Scissors. Rounds won:${roundsWon} Rounds Lost:${roundsLost}`;
